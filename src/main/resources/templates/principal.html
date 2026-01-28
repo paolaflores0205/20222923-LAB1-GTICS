@@ -17,6 +17,10 @@
 
     <div class="container-fluid">
 
+        <div th:if="${codigoRecibido=='PUCP'}">
+            <img th:src="@{/images/logoPucp.png}" alt="Logo PUCP" style="width: 40px;">
+        </div>
+
         <form class="d-flex ">
             <input type="search" class="form-control form-control-dark" placeholder="Encuentra tus vuelos preferidos" style="width: 1100px" aria-label="Search">
         </form>
