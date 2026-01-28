@@ -13,4 +13,5 @@ public class HomeController {
     public String paginaPrincipal(){
         return "principal"; //nombre del archivo HTML
     }
+
 }
